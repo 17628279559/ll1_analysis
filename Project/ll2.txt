@@ -1,0 +1,16 @@
+S
+a,b,^,(,),*,+
+S,A,B,C,E,F,G
+S->AB
+B->+S
+B->/
+A->FC
+C->A
+C->/
+F->GE
+E->*F
+E->/
+G->(S)
+G->a
+G->b
+G->^
